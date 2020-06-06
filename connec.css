@@ -1,0 +1,44 @@
+@font-face
+{
+	font-family:'BallparkWeiner';
+	src: url('polices/ballpark.eot');
+	
+	
+}
+
+body{
+font-family:'arial black',serif;
+background-color:rgba(25,25,25,0.2);
+}
+
+.texte
+{
+	font-family:'BallparkWeiner',serif;
+	font-size:1.5em;
+	font-weight:normal;
+	text-align:center;
+	
+}
+.partie
+{
+	background-color:rgba(255,255,255,0.6);
+	margin-left:10%;
+	margin-right:10%;
+}
+.merde
+{
+		background-color:rgba(0,55,25,0.2);
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+.metre
+{
+	margin-top:2em;
+}
+img{
+	border-radius:5%;
+	
+}
+

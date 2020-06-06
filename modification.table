@@ -1,0 +1,10 @@
+CREATE TABLE modification(
+    id integer NOT NULL,
+    id_abonne integer NOT NULL,
+    element VARCHAR(12),
+    date DATETIME,
+    message VARCHAR(255),
+    PRIMARY KEY(id),
+    FOREIGN KEY(id_abonne) REFERENCES abonne(id)
+    );
+    

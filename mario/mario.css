@@ -1,0 +1,27 @@
+body{
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	margin-bottom:0px;
+	background-color:rgba(10,4,20,0.5);
+}
+#canvas
+{
+	position:absolute;
+	
+	background-color:#acffff;
+	border:3px solid blue;
+	border-radius:5px;
+}
+
+#table{
+	position:absolute;
+	left:400px;
+	top:0px;
+}
+
+input{
+	text-align:center;
+	border:1px inset white;
+	border-radius:4%;
+}

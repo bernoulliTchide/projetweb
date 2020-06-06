@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<title> Jeu Mario</title>
+		
+		<link rel="stylesheet" type="text/css" media="all" href="mario.css"/>
+		<link rel="icon" type="image/ico" href="image/caisse.jpg" />
+	
+	</head>
+	<body>
+	<canvas height="340" width="340" id="canvas">
+	ce texte c'est pour ceux qui ne superte pas canvas(navigateur).
+	</canvas>
+	<form name="form1">
+	<table cellpadding=4 cellspacing=4 border=0 id="table" name="place">
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="00" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="01" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="02" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="03" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="04" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="05" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="06" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="07" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="08" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="09" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="10" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="11"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="12"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="13"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="14"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="15"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="16"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="17"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="18"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="19" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="20" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="21"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="22"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="23"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="24"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="25"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="26"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="27"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="28"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="29" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="30" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="31"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="32"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="33"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="34"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="35"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="36"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="37"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="38"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="39" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="40" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="41"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="42"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="43"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="44"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="45"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="46"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="47"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="48"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="49" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="50" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="51"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="52"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="53"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="54"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="55"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="56"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="57"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="58"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="59" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="60" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="61"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="62"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="63"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="64"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="65"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="66"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="67"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="68"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="69" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="70" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="71"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="72"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="73"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="74"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="75"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="76"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="77"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="78"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="79" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="80" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="81"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="82"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="83"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="84"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="85"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="86"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="87"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="88"></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="89" value=1></td>
+	</tr>
+	<tr>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="90" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="91" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="92" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="93" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="94" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="95" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="96" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="97" value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="98"  value=1></td>
+	<td><input type="number" placeholder=0 max=4 min = 0 required id="99" value=1></td>
+	</tr>
+	</table>
+	
+	</form>
+	<br>
+	<h1 id="text">  </h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<form name="form">
+	<label for="niveau"><span style="color:red">Niveau :</span></label>
+	<input type="number" placeholder=0 max=9 min = 0 required name="niv" id="p">
+	<input type="button" value="Charger!!!" onclick="jouer()">
+	<input type="submit" value="Recommencer">
+	<input type="text" value=1 id="champ" hidden>
+	<input type="button" value="Stop" id="stop" onclick="arreter()">
+	<input type="button" value="play" id="play" onclick="plays()">
+	</form>
+	
+	<script type="text/javaScript" src="etape.js"></script>
+	</body>
+</html>
