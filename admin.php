@@ -8,7 +8,7 @@ if(@$_SESSION['merde'] == 'oui'){
 ?>
 
 <script language="javaScript">
-alert("Vous avez entrer des information incompatible avec votre compte");
+alert("Vous avez entrer des information incompatible avec votre compte merci");
 
 </script>
 
